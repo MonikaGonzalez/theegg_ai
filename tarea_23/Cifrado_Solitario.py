@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -456,4 +455,3 @@ while valor !=1 and valor !=2:
   
 
 
->>>>>>> 6a92c9b8d2e563c2d1c894dbedbf96956f4fa743
