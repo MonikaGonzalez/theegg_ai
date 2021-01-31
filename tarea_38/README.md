@@ -59,7 +59,7 @@ Su salida debe consistir en un solo número entero, el más pequeño palíndromo
 
 ## Ejecución
 
-Para ejecutar el archivo **Invertir_palabras.py** abrirlo con el IDLE de python y ejecutarlo. Se pedirá introducir por teclado un número y como resultado se devolverá el número inmediatamente superior o igual al introducido que el palíndromo y primo. Después se preguntará si se quiere continuar o abandonar.
+Para ejecutar el archivo **Palindromos.py** abrirlo con el IDLE de python y ejecutarlo. Se pedirá introducir por teclado un número entero entre 1 y 1000000 y como resultado se devolverá el número inmediatamente superior o igual al introducido que el palíndromo y primo. Después se preguntará si se quiere continuar o abandonar.
 
 ## 5. El_biologo.png
 
