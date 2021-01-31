@@ -26,7 +26,9 @@ hasta allí. Sus gracietas y su buena conversación me hicieron apartar el frío
 se encarga de pensar, y hasta cantamos juntos la canción de Annie.
 Sé que esto último puede sonar raro, ¿quién canta Annie semidesudo y congelado en un paseo de
 Irlanda con un señor que acaba de conocer? Pero? seguro que a ti también te han pasado cosas así."
-Ref: https://pegameunviaje.com/3-anecdotas-divertidas-de-mis-viajes/
+
+
+Ref: (https://pegameunviaje.com/3-anecdotas-divertidas-de-mis-viajes/)
 
 # REQUERIMIENTOS
 
