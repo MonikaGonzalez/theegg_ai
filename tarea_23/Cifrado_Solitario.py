@@ -13,32 +13,6 @@
     # Joker A y Joker B serían 52 y 53, respectivamente
 
 
-
-
-def Baraja_con_clave(Clave_baraja):
-    """ Esta función crea primero una baraja en orden y después la cifra según una clave
-        siguiendo unos movimientos similares a los que se hacen al cifrar o descifrar el mensaje"""
-
-    baraja=[]
-    for i in range(1,55):
-        baraja.append(i)
-
-    minusculas= "abcdefghijklmnopqrstuvwyxz"
-    mayusculas="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-    Anumero=[]
-    for i in Clave_baraja:
-        if i in minusculas:
-            Anumero.append((ord(i)-96))
-        if i in mayusculas:
-            Anumero.append((ord(i)-64))
-            
-    for numero in Anumero:
-        
-        Ronda(baraja)
-        z=numero
-        baraja[:-1]=baraja[z:-1]+baraja[:z]
-    return baraja
                           
 def Mover_JokerA(baraja):
     """Función para mover el JokerA debajo de la siguiente carta"""
@@ -105,6 +79,31 @@ def Ronda(baraja):
     Corte_en_Tres(baraja)
     Corte_contando(baraja)                              
 
+def Baraja_con_clave(Clave_baraja):
+    """ Esta función crea primero una baraja en orden y después la cifra según una clave
+        siguiendo unos movimientos similares a los que se hacen al cifrar o descifrar el mensaje"""
+
+    baraja=[]
+    for i in range(1,55):
+        baraja.append(i)
+
+    minusculas= "abcdefghijklmnopqrstuvwxyz"
+    mayusculas="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+    Anumero=[]
+    for i in Clave_baraja:
+        if i in minusculas:
+            Anumero.append((ord(i)-96))
+        if i in mayusculas:
+            Anumero.append((ord(i)-64))
+            
+    for numero in Anumero:
+        
+        Ronda(baraja)
+        z=numero
+        baraja[:-1]=baraja[z:-1]+baraja[:z]
+    return baraja
+
 
 def cifrar_mensaje(mensaje,Clave_baraja):
     """ Esta función cifra el mensaje que le llegará al receptor, a partir de una baraja cifrada con una clave"""
@@ -132,7 +131,8 @@ def cifrar_mensaje(mensaje,Clave_baraja):
             valor=baraja[z]
         else:
             valor=baraja[z]
-        if valor>52:
+            
+        while valor>52:#Si el valor para restar es 53 o 54 volver a barajar
             Ronda(baraja)
             z=baraja[0]
             if z==54:
@@ -168,18 +168,27 @@ def descifrar_mensaje(ristra, Clave_baraja):
         if i in mayusculas:
             Anumero.append((ord(i)-64))
 
-    for numero in Anumero:
+    for numero in Anumero: 
         Ronda(baraja)
         #Obtener valor para restar
         z=baraja[0]
         if z==54: # El JokerB también vale 53
             z=53
             valor=baraja[z]
-            valorresta=numero-valor
+
         else:
             z=z
             valor=baraja[z]
-            valorresta=numero-valor
+
+        while valor>52:#Si el valor para restar es 53 o 54 volver a barajar
+            Ronda(baraja)
+            z=baraja[0]
+            if z==54:
+                z=53
+                valor=baraja[z]
+            else:
+                valor=baraja[z]
+        valorresta=numero-valor
 
         #Obtener primera letra del mensaje
         while valorresta<1:
@@ -196,25 +205,25 @@ def descifrar_mensaje(ristra, Clave_baraja):
 valor= False
 while valor !=1 and valor !=2:
     """ Esta función solicita introducir un 1 o un 2 para cifrar o descifar un mensaje,respectivamente, si el número introducido
-        es un 1, solicita introducir un mensaje y una clave y devulve en mensaje cifrado, si el número introducido es un 2,
-        solicita introducir un mensaje cifrado y la clave de cifrado y lo devuelve descifrado"""
+    es un 1, solicita introducir un mensaje y una clave y devulve en mensaje cifrado, si el número introducido es un 2,
+    solicita introducir un mensaje cifrado y la clave de cifrado y lo devuelve descifrado"""
     
     opcion= int(input("Por favor, presiona 1 si quieres cifrar un mensaje o presiona 2 si lo que quieres es descifrar un mensaje: "))
 
     if opcion == 1:
         valor= True
-        print("Escribe, por favor, el mensaje que quieres cifrar")
+        print("Escribe, por favor, el mensaje que quieres cifrar: ")
         mensaje=input()
-        print("Escribe, por favor, la clave de cifrado que quieres usar")
+        print("Escribe, por favor, la clave de cifrado que quieres usar: ")
         Clave_baraja=input()
         cifrar_mensaje(mensaje, Clave_baraja)
         valor= False
         
     elif opcion == 2:
         valor= True
-        print("Escribe, por favor, el mensaje que quieres descifrar")
+        print("Escribe, por favor, el mensaje que quieres descifrar: ")
         ristra=input()
-        print("Escribe, por favor, la clave de cifrado que quieres usar")
+        print("Escribe, por favor, la clave de descifrado que quieres usar: ")
         Clave_baraja=input()
         descifrar_mensaje(ristra, Clave_baraja)
         valor=False
@@ -222,7 +231,4 @@ while valor !=1 and valor !=2:
     else:
         
         print("Has introducido un número no valido")
-
-  
-
 
