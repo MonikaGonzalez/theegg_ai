@@ -49,7 +49,7 @@ CASO 5
 
 ![Query](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Query_5.png?raw=true)
 
-![Results](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Results_5
+![Results](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Results_5.png?raw=true)
 
 CASO 6
 
@@ -77,5 +77,5 @@ CASO 9
 
 END OF FREE TRIAL
 
-![End of free Trial](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Query_9.png?raw=true)
+![End of free Trial](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/End_free_trial.png?raw=true)
 
