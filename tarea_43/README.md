@@ -13,7 +13,7 @@ Acceso a la página https://sqlpd.com/ (no es necesario registrarse)
 
 ##  1. Dicionario_hasta_tarea_43.docx
 
-Documento actualizado hasta la tarea indicada con los términos correspondientes a cada tarea.
+Documento actualizado hasta la tarea indicada, con los términos correspondientes a cada tarea.
 
 ##  2. Archivo **Tarea_43.docx**
 
@@ -69,11 +69,7 @@ CASO 8
 
 ![Results](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Results_8.png?raw=true)
 
-CASO 9
 
-![Query](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Query_9.png?raw=true)
-
-![Results](https://github.com/MonikaGonzalez/theegg_ai/tree/master/tarea_43/Images/Results_9.png?raw=true)
 
 END OF FREE TRIAL
 
