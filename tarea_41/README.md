@@ -42,8 +42,10 @@ Documento actualizado hasta la tarea indicada con los términos correspondientes
 
 ##  2. Archivo **tarea_41.py**
 
+##  3. Archivo **"texto.txt"** con el texto a analizar
+
 ## Ejecución
 
-Para ejecutar el archivo **Tarea_41.py** abrirlo con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de palabras del texto guardado en la varialble **texto** del archivo y cúales son la primera y la segunda palabra más repetida en el texto.
+Para ejecutar el archivo **Tarea_41.py** abrirlo con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto guardado en la variable **"texto"** del archivo y además se imprimirá un ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
 
 
