@@ -1,4 +1,4 @@
-﻿# TAREA_39
+﻿# TAREA_41
 
 # OBJETIVO
 
@@ -44,7 +44,7 @@ Documento actualizado hasta la tarea indicada con los términos correspondientes
 
 ##  3. Archivo **"texto.txt"** 
 
-Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt con el texto a analizar, siempre y cuando se conserve el nombre del archivo.
+Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt con otro texto, siempre y cuando se conserve el nombre del archivo.
 
 ## Ejecución
 
