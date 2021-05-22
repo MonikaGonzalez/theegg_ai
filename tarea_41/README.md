@@ -42,7 +42,9 @@ Documento actualizado hasta la tarea indicada con los términos correspondientes
 
 ##  2. Archivo **tarea_41.py**
 
-##  3. Archivo **"texto.txt"** con el texto a analizar
+##  3. Archivo **"texto.txt"** 
+
+Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt con el texto a analizar, siempre y cuando se conserve el nombre del archivo.
 
 ## Ejecución
 
