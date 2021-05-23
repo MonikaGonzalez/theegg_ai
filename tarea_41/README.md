@@ -48,6 +48,6 @@ Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt un te
 
 ## Ejecución
 
-Para ejecutar el archivo **Tarea_41.py** abrirlo con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto a analizar, además se creará un archivo que contiene esta información más el ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
+Para comprobar esta tarea es necesario descargar el archivo **texto.txt** y el archivo **tarea_41.py** en el mismo directorio y y luego abrir este último con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto a analizar, además se creará un archivo que contiene esta información más el ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
 
 
