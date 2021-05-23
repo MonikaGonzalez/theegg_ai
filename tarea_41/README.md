@@ -52,7 +52,7 @@ Para comprobar esta tarea es necesario descargar el archivo **texto.txt** y el a
 
 ## Expresiones Regex usadas
 
-**Para todas las palabras del texto**
+**Para todos los caracteres del texto**
 
 Se ha usado la expresión: [\S]
 
