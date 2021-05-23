@@ -48,7 +48,7 @@ Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt un te
 
 ## Ejecución
 
-Para ejecutar el archivo **Tarea_41.py** abrirlo con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto a analizar, además se creará un archivo dentro de la carpeta tarea_41 llamado resultados.txt, que contiene esta información más el ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
+Para comprobar esta tarea es necesario descargar el archivo **texto.txt** y el archivo **tarea_41.py** en el mismo directorio y y luego abrir este último con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto a analizar, además se creará un archivo que contiene esta información más el ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
 
 ## Expresiones Regex usadas
 
@@ -63,14 +63,16 @@ Se ha usado la expresión: [\S]
 Se ha usado la expresión: \b[a-zA-Zá-üÁ-Ü\d]+
 
 \ b establece la posición en el límite de una palabra: (^ \ w | \ w $ | \ W \ w | \ w \ W)
-Coincide con un solo carácter presente en la lista a continuación [a-zA-Zá-üÁ-Ü \ d]
+
 a-z coincide con un solo carácter en el rango entre a (índice 97) yz (índice 122) (distingue entre mayúsculas y minúsculas)
+
 A-Z coincide con un solo carácter en el rango entre A (índice 65) y Z (índice 90) (distingue entre mayúsculas y minúsculas)
+
 á-ü coincide con un solo carácter en el rango entre á (índice 225) y ü (índice 252) (distingue entre mayúsculas y minúsculas)
+
 Á-Ü coincide con un solo carácter en el rango entre Á (índice 193) y Ü (índice 220) (distingue entre mayúsculas y minúsculas)
+
 \ d coincide con un dígito (equivalente a [0-9])
-
-
 
 
 
