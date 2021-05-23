@@ -52,13 +52,13 @@ Para comprobar esta tarea es necesario descargar el archivo **texto.txt** y el a
 
 ## Expresiones Regex usadas
 
-**Para buscar todos los caracteres del texto**
+**Para buscar todos los caracteres del texto:**
 
 Se ha usado la expresión: [\S]
 
-\S coincide con cualquier carácter que no sea un espacio en blanco (equivalente a [^\r\n\t\f\v]
+\S coincide con cualquier caracter que no sea un espacio en blanco (equivalente a [^\r\n\t\f\v])
 
-**Para buscar todas las palabras del texto**
+**Para buscar todas las palabras del texto:**
 
 Se ha usado la expresión: \b[a-zA-Zá-üÁ-Ü\d]+
 
