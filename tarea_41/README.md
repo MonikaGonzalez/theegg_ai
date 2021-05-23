@@ -44,10 +44,10 @@ Documento actualizado hasta la tarea indicada con los términos correspondientes
 
 ##  3. Archivo **"texto.txt"** 
 
-Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt con otro texto, siempre y cuando se conserve el nombre del archivo.
+Archivo con el texto a analizar. Se puede reemplazar por otro archivo .txt un texto diferente, siempre y cuando se conserve el nombre del archivo "texto.txt".
 
 ## Ejecución
 
-Para ejecutar el archivo **Tarea_41.py** abrirlo con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto guardado en la variable **"texto"** del archivo y además se imprimirá un ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
+Para ejecutar el archivo **Tarea_41.py** abrirlo con el IDLE de python y ejecutarlo. Como resultado se imprimirá en pantalla el número de caracteres y el número de palabras del texto a analizar, además se creará un archivo que contiene esta información más el ranking de todas las palabras del texto atendiendo a su frecuencia. Si se quiere usar el script para otro texto se puede sustituir el archivo "texto.txt" que se encuentra dentro de la carpeta tarea_41 por otro archivo con el mismo nombre que contenga el texto que se quiere analizar.
 
 
