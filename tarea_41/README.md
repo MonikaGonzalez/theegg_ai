@@ -52,17 +52,17 @@ Para comprobar esta tarea es necesario descargar el archivo **texto.txt** y el a
 
 ## Expresiones Regex usadas
 
-**Para todos los caracteres del texto**
+**Para buscar todos los caracteres del texto**
 
 Se ha usado la expresión: [\S]
 
-\S coincide con cualquier carácter que no sea un espacio en blanco (equivalente a [^ \ r \ n \ t \ f \ v]
+\S coincide con cualquier carácter que no sea un espacio en blanco (equivalente a [^\r\n\t\f\v]
 
 **Para buscar todas las palabras del texto**
 
 Se ha usado la expresión: \b[a-zA-Zá-üÁ-Ü\d]+
 
-\ b establece la posición en el límite de una palabra: (^ \ w | \ w $ | \ W \ w | \ w \ W)
+\ b establece la posición en el límite de una palabra: (^\w|\w$|\W\w|\w\W)
 
 a-z coincide con un solo carácter en el rango entre a (índice 97) yz (índice 122) (distingue entre mayúsculas y minúsculas)
 
@@ -72,7 +72,9 @@ A-Z coincide con un solo carácter en el rango entre A (índice 65) y Z (índice
 
 Á-Ü coincide con un solo carácter en el rango entre Á (índice 193) y Ü (índice 220) (distingue entre mayúsculas y minúsculas)
 
-\ d coincide con un dígito (equivalente a [0-9])
+\d coincide con un dígito (equivalente a [0-9])
+
+NOTA: con el último elemento de este expresión "/d" también se consideran como palabras los números del texto. Eliminado este elemento de la expresión regex, no se tendrían en cuenta.
 
 
 
