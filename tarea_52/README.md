@@ -33,7 +33,7 @@ Sólo hace falta tener el software de Python instalado.
 
 # CONTENIDO DE LA CARPETA
 
-##  1. Dicionario_tarea_52.docx
+##  1. Diccionario_tarea_52.docx
 
 Documento con los términos correspondientes a la tarea.
 
@@ -49,7 +49,7 @@ Archivo python con la solución al ejercicio 2.
 
 # EJECUCIÓN
 
-Abrir el archivo *main.py* en un editor de Python y ejecutarlo. Se mostrarán los resultados de diferentes pruebas. 
+Para ver las soluciones a los ejercicios abrir los archivos correspondientes en un editor de Python y ejecutarlos.
 
 
 
