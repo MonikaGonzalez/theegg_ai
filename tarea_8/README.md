@@ -21,9 +21,9 @@ Nota: Si otra persona no entiende tu solución es porque puede que la idea sea e
 
 1. **DeLaCabezaRealidad_vol_1**: Documento pdf donde se explica la tarea a realizar
 
-2. **Predicción_de_Precios_inmobiliarios** Documento pdf donde se ha desarrollado el segundo de los ejercicios requeridos
+2. **Predicción_de_Precios_inmobiliarios**: Documento pdf donde se ha desarrollado el segundo de los ejercicios requeridos
 
-3. **Fiabilidad_de_posible_cliente_banca** Documento pdf donde se ha desarrollado el segundo de los ejercicios requeridos
+3. **Fiabilidad_de_posible_cliente_banca**: Documento pdf donde se ha desarrollado el segundo de los ejercicios requeridos
 
 
 
