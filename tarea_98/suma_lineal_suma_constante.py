@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-cantidad = 1000000
+
 
 def suma_lineal (cantidad):
     """ Esta función toma como argumento un número y utilizando un bucle for va sumando uno a uno todos los números
@@ -12,6 +12,9 @@ def suma_lineal (cantidad):
     for numero in range (0,cantidad +1 ):
         suma = suma + numero
 
+    return suma
+
+
 
 
 def suma_constante (cantidad):
@@ -20,6 +23,8 @@ def suma_constante (cantidad):
         sóla operación, sumando 1 a dicho número y multiplicándolo por la mitad de dicha cantidad """
 
     suma = (1 + cantidad)* cantidad / 2
+
+    return suma
 
 
 
