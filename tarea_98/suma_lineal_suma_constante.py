@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-cantidad = 1000002
+cantidad = 1000000
 
 def suma_lineal (cantidad):
     """ Esta función toma como argumento un número y utilizando un bucle for va sumando uno a uno todos los números
