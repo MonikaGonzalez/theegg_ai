@@ -25,7 +25,7 @@ Sólo hace falta tener Pyton instalado
 
 # EJECUCIÓN
 
-Abrir el archivo tarea_176.py
+Ejecutar el archivo tarea_176.py
 
 
 
