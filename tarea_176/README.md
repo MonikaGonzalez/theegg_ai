@@ -17,7 +17,7 @@ Dar solución a los siguientes problemas mediante la utilización de controlador
 
 # REQUERIMIENTOS
 
-Sólo hace falta tener Pyton instalado
+Sólo hace falta tener Python instalado
 
 # CONTENIDO DE LA CARPETA
 
