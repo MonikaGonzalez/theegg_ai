@@ -1,0 +1,16 @@
+Sensación térmica,Edad,Frase,Target
+Caliente,12,El helado estaba frío y el agua estaba caliente,1
+Muy frío,15,el helado estaba caliente,0
+Caliente,13,EL HELADO ESTABA MUY FRÍO,1
+Muy caliente,78,el helado estaba muy caliente,1
+Frío,65,hace mucho frío en la calle,0
+Frío,42,Hace mucho calor en la calle,0
+Muy frío,98,el caldo estaba frío,1
+Muy caliente,24,el caldo estaba MUY CALIENTE,1
+Caliente,26,el caldo estaba caliente,1
+Muy frío,38,el caldo estaba muy frió,0
+Caliente,27,el plato estaba frío,1
+Muy caliente,32,el plato estaba muy caliente,1
+Frío,22,el plato estaba caliente,0
+Muy frío,45,el plato estaba muy frió,1
+Muy caliente,27,PREFIERO EL FRÍO QUE EL CALOR,1
