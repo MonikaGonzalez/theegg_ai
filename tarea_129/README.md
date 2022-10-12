@@ -4,10 +4,9 @@
 
 La reducción de la dimensionalidad trata de transformar datasets de alta dimensionalidad en otros conjuntos de datos que tengan una menor dimensionalidad.
 
-
 # TAREA
 
-Conocer cuáles son las técnicas para la reducción de la dimensionalidad, en concreto "Análisis del componente principal" o PCA y "Análisis de la discriminación lineal" o LDA, así como la implementación de las mismas en python.
+Conocer cuáles son las técnicas para la reducción de la dimensionalidad, en concreto "Análisis de componentes principales" o PCA y "Análisis discriminante lineal" o LDA, así como la implementación de las mismas en python.
 
 # REQUERIMIENTOS
 
@@ -16,7 +15,6 @@ Sólo hace falta tener la distribución Anaconda instalada.
 # CONTENIDO DE LA CARPETA
 
 ### 1. -Jupyter notebook "tecnicas_reduccion_dimensionalidad.ipynb", con la implementación en Python de los métodos de reducción de la dimensionalidad citados en la tarea.
-
 
 
 # MATERIAL EXTRA USADO PARA LA COMPRENSIÓN DE LA TAREA
