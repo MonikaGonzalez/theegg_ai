@@ -15,7 +15,7 @@ Sólo hace falta tener la distribución Anaconda instalada.
 # CONTENIDO DE LA CARPETA
 
 ### 1. -Jupyter notebook "Ejercicio práctico.ipynb", con el enunciado e información para completar la tarea.
-### 2. -Archivo txt "ejemplo_dataset.txt", que contiene el dataset que se usará para el Ejercicio práctico.
+### 2. -Archivo txt "Datos mojarra americana.txt", que contiene el dataset que se usará para el Ejercicio práctico.
 
 
 # MATERIAL DE APOYO
