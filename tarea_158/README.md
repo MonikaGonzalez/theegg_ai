@@ -17,8 +17,8 @@ Sólo hace falta tener la distribución Anaconda instalada.
 
 # MATERIAL DE APOYO
 
-Estos son algunos de los videos de canal [StatQuest] (https://www.youtube.com/c/joshstarmer) que he usado como apoyo
+Estos son algunos de los videos de canal [StatQuest](https://www.youtube.com/c/joshstarmer) que he usado como apoyo
 
-[AdaBoost, Clearly Explained] (https://www.youtube.com/watch?v=LsK-xG1cLYA)
-[Gradient Boost Main Ideas] (https://www.youtube.com/watch?v=3CC4N4z3GJc)
-[XGBoost: Classification] (https://www.youtube.com/watch?v=8b1JEDvenQU&t=267s)
+[AdaBoost, Clearly Explained](https://www.youtube.com/watch?v=LsK-xG1cLYA)
+[Gradient Boost Main Ideas](https://www.youtube.com/watch?v=3CC4N4z3GJc)
+[XGBoost: Classification](https://www.youtube.com/watch?v=8b1JEDvenQU&t=267s)
